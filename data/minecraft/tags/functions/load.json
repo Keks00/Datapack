@@ -1,0 +1,11 @@
+{
+    "values": [
+    "keks:load/skills",
+    "keks:load/items",
+    "keks:load/load",
+    "keks:load/music",
+    "keks:load/trigger",
+    "keks:load/creative",
+    "keks:1tps_function/detect_furnace"
+]
+}

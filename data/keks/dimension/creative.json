@@ -1,0 +1,26 @@
+{
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "features": true,
+            "lakes": false,
+            "biome": "plains",
+            "layers": [
+                {
+                    "block": "stone",
+                    "height": 70
+                },
+                {
+                    "block": "dirt",
+                    "height": 4
+                },
+                {
+                    "block": "grass_block",
+                    "height": 1
+                }
+            ],
+            "structure_overrides": []
+        }
+    },
+    "type": "keks:creative"
+}

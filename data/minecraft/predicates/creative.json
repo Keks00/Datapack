@@ -1,0 +1,13 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+    "predicate": {
+        "location": {
+            "dimension": "keks:creative"
+        }
+    }
+    }
+    
+}

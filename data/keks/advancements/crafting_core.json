@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "keks:furnace_core"
+        }
+      }
+    },
+    "rewards": {
+      "function": "keks:items/recipe/furnace_core"
+    }
+  }
+  

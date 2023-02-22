@@ -1,0 +1,10 @@
+{
+    "type": "smelting",
+    "cookingtime": 2400,
+    "experience": 100,
+    "group": "New",
+    "ingredient": {
+        "item": "mud"
+    },
+    "result": "knowledge_book"
+}
