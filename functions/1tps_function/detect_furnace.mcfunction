@@ -1,0 +1,8 @@
+execute as @e[tag=core_furnace_final] at @s if block ^1 ^ ^ mud_bricks if block ^1 ^ ^1 mud_bricks if block ^-1 ^ ^ mud_bricks if block ^-1 ^ ^-1 mud_bricks if block ^1 ^ ^-1 mud_bricks if block ^-1 ^ ^1 mud_bricks if block ^ ^ ^1 mud_bricks if block ^ ^ ^-1 mud_bricks if block ^1 ^1 ^ mud_brick_slab[type=top] if block ^1 ^1 ^1 mud_brick_wall if block ^-1 ^1 ^ mud_bricks if block ^-1 ^1 ^-1 mud_brick_wall if block ^ ^1 ^1 mud_bricks if block ^ ^1 ^-1 mud_bricks if block ^ ^1 ^ air if block ^-1 ^1 ^1 mud_brick_wall if block ^1 ^2 ^-1 mud_brick_slab if block ^1 ^2 ^ mud_bricks if block ^1 ^2 ^1 mud_brick_slab if block ^-1 ^2 ^ mud_bricks if block ^-1 ^2 ^-1 mud_brick_slab if block ^ ^2 ^1 mud_bricks if block ^ ^2 ^-1 mud_bricks if block ^ ^2 ^ air if block ^-1 ^2 ^1 mud_brick_slab if block ^1 ^2 ^-1 mud_brick_slab run scoreboard players add @s detect_mbs 1
+schedule function keks:1tps_function/detect_furnace 1s replace
+execute as @e[tag=core_furnace_final,scores={detect_mbs=..0}] at @s run tp @s ~ ~ ~ facing ^1 ^ ^ 
+execute as @e[tag=core_furnace_final] unless entity @s[scores={detect_mbs=-2147483648..2147483647}] run scoreboard players set @s detect_mbs 0
+scoreboard players remove @e[tag=core_furnace_final,scores={detect_mbs=1..},tag=built] detect_mbs 1
+tag @e[tag=core_furnace_final,scores={detect_mbs=1..}] add built
+tag @e[tag=core_furnace_final,scores={detect_mbs=0},tag=built] remove built
+execute as @e[tag=core_furnace_final,scores={detect_mbs=-2147483648..2147483647}] at @s run effect give @a[distance=..2] instant_damage 1 2 true

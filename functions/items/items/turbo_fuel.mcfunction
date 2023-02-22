@@ -1,0 +1,2 @@
+scoreboard players add @s fuel 400
+clear @s fire_charge{Slot:17b,id:"minecraft:firework_star",Count:2b,tag:{display:{Name:'{"text":"Turbofuel","color":"gold"}',Lore:['{"text":"So powerfull, that only the Jetpack++ can use it. Put in your offhand. 3/m"}']},CustomModelData:20,tag:tfuel,Enchantments:[{}]}} 1

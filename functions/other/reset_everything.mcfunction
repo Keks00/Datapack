@@ -1,0 +1,13 @@
+scoreboard players set @a explorationlvl 0
+scoreboard players set @a mininglvl 0
+scoreboard players set @a combatlvl 0
+scoreboard players set @a miningreq 25
+scoreboard players set @a explorationreq 100
+scoreboard players set @a combatreq 10
+scoreboard players set @a combat 0
+scoreboard players set @a mining 0
+scoreboard players set @a exploration 0
+scoreboard players set @a toggle1 1
+scoreboard players set @a toggle_c 1
+scoreboard players set @a toggle_e 1
+scoreboard players set @a toggle_m 1

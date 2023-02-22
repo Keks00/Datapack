@@ -1,0 +1,1 @@
+give @p zombie_spawn_egg{EntityTag:{OnGround:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,NoAI:1b,CanPickUpLoot:0b,Tags:["giant_1"],CustomName:'{"text":"namespace"}'}} 1

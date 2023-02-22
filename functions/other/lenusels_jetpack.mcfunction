@@ -1,0 +1,4 @@
+give @s firework_star{id:"minecraft:firework_star",tag:{display:{Name:'{"text":"Fuel","color":"dark_red"}',Lore:['{"text":""}']},CustomModelData:602105012}} 64
+give @s fire_charge{Slot:17b,id:"minecraft:firework_star",Count:2b,tag:{display:{Name:'{"text":"Turbofuel","color":"gold"}',Lore:['{"text":""}']},CustomModelData:20,Enchantments:[{}]}} 64
+give @s netherite_chestplate{id:"minecraft:netherite_chestplate",Count:1b,tag:{display:{Name:'{"text":"Jetpack++","color":"gold"}',Lore:['{"text":""}']},RepairCost:40,CustomModelData:190,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1.1,Operation:2,UUID:[I;-273171487,-582268378,-2086043251,280841592],Slot:"chest"}]}} 1
+give @s iron_chestplate{id:"minecraft:iron_chestplate",Count:1b,tag:{display:{Name:'{"text":"Jetpack","color":"dark_red"}',Lore:['{""}']},RepairCost:40,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}} 1
